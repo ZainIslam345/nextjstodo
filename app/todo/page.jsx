@@ -206,4 +206,4 @@ const Todo = () => {
   );
 };
 
-export default WithAuth(Todo);
+export default Todo;
