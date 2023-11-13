@@ -27,7 +27,7 @@ const TextInput = ({
         className={error && touched[id] ? `${styles.textInput_error}` : null}
         {...rest}
       />
-      <ErrorMessage name={name} component="span" className={styles.erro} />
+      <ErrorMessage name={name} component="span" />
     </div>
   );
 };
