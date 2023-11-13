@@ -1,0 +1,118 @@
+.image {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    border: 4px solid #bdbdbd;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.form {
+    position: relative;
+    width: 80%;
+}
+.input {
+    color: inherit;
+    border-radius: 5px;
+    padding: .8rem .5rem;
+    width: 100%;
+}
+.input:focus{
+    outline: none;
+}
+.plusBtn {
+    position: absolute;
+    cursor: pointer;
+    top: 11%;
+    right: 2%;
+    background-color: rgba(165,136,80,.81);
+    height: 80%;
+    width: 2.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo {
+    width: 80%;
+}
+.heading {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(204,177,136,.5);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    padding: .8rem;
+    border: 1px solid #bdbdbd;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+.heading > div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.heading > svg {
+    cursor: pointer;
+}
+.noTask {
+    background-color: rgba(255,255,255,.8);
+    backdrop-filter: blur(2px);
+    border-radius: 5px;
+    min-height: 14rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tasks {
+    background-color: rgba(239,230,220,.75);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    min-height: 14rem;
+    max-height: 25rem;
+    overflow-y: auto;
+}
+/* .tasks::-webkit-scrollbar {
+    display: none;
+} */
+.tasks::-webkit-scrollbar {
+    width: 5px;
+}
+.tasks::-webkit-scrollbar-track {
+background: transparent; 
+}
+.tasks::-webkit-scrollbar-thumb {
+background: #888; 
+}
+  
+.task {
+    border-bottom: 1px solid #A49377;
+    padding: 1rem .4rem 1rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.task > div {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.task svg {
+    cursor: pointer;
+}
+.task h4 {
+    font-size: 1.4rem; 
+}
+.taskDetail {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    background-color: #eeeeee;
+    padding: .7rem;
+}
+.deleteBtn {
+    width: 100%;
+    background-color: rgba( 220, 53, 69 , .2);
+    padding: .38rem;
+    color: #dc3545;
+}

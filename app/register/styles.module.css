@@ -1,0 +1,14 @@
+.register {
+    padding: 5rem;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px rgba(0,0,0,.2);
+    background-color: #fff;
+}
+.register h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.register a {
+    color: #da9a0a;
+}

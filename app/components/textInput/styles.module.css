@@ -1,0 +1,38 @@
+.textInput {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .4rem;
+}
+.textInput label {
+    font-size: 14px;
+    line-height: 1.1;
+    color: #344054;
+    margin-bottom: 6px;
+}
+.textInput input {
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    height: 2.75rem;
+    width: 100%;
+    border: 1px solid #D0D5DD;
+    outline: none;
+    padding: 0 12px;
+    color: #667085;
+    margin-bottom: 2px;
+    font-size: 1rem;
+}
+.textInput input::-webkit-input-placeholder {
+    color: inherit;
+    opacity: .6;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+}
+.textInput .textInput_error {
+    border: 2px solid #e63946 !important;
+}
+
+.textInput span {
+    color: #e63946;
+    font-size: 12px;
+}
