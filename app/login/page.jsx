@@ -6,7 +6,7 @@ import { login } from "../APIs/auth";
 import { toast, ToastContainer } from "react-toastify";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-
+import TextInput from "../components/TextInput/TextInput";
 
 const RegisterPage = () => {
   const router = useRouter();
