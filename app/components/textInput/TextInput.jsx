@@ -32,6 +32,6 @@ const TextInput = ({
   );
 };
 
-TextInput.displayName = "TextInput";
+// TextInput.displayName = "TextInput";
 
 export default TextInput;
