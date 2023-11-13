@@ -1,14 +1,12 @@
 "use client";
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Form } from "formik";
 import * as Yup from "yup";
-// import {useRouter} from 'next/router';
-import TextInput from "../components/TextInput/page";
+import TextInput from "../components/TextInput/TextInput";
 import styles from "./styles.module.css";
 import { toast, ToastContainer } from "react-toastify";
 import { register } from "../APIs/auth";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import Loading from "../components/Loading/Loading";
 
 const RegisterPage = () => {
   const router = useRouter();
