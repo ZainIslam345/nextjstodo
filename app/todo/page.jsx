@@ -11,7 +11,8 @@ import CheckCircleIcon from "@/public/icons/CheckCircleIcon";
 import styles from "./styles.module.css";
 import { getAllTodos, setTodo, deleteTodo, updateTodo } from "../APIs/todo";
 import Loading from "../components/Loading/Loading";
-import WithAuth from "../hocs/withAuth";
+// import WithAuth from "../hocs/withAuth";
+import WithAuth from "./../hocs/withAuth";
 
 const Todo = () => {
   const [task, setTask] = useState("");
