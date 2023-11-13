@@ -6,7 +6,7 @@ import { login } from "../APIs/auth";
 import { toast, ToastContainer } from "react-toastify";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import TextInput from "../components/TextInput/TextInput";
+// import TextInput from "../components/TextInput/TextInput";
 
 const RegisterPage = () => {
   const router = useRouter();
@@ -72,15 +72,15 @@ const RegisterPage = () => {
                 <Form className={styles.login}>
                   <p>Welcome back</p>
                   <h2>Login</h2>
-                  <TextInput
+                  {/* <TextInput
                     label="Email"
                     id="email"
                     name="email"
                     placeholder="Enter email"
                     touched={touched}
                     error={errors.email}
-                  />
-                  <TextInput
+                  /> */}
+                  {/* <TextInput
                     label="Password"
                     id="password"
                     name="password"
@@ -88,7 +88,7 @@ const RegisterPage = () => {
                     touched={touched}
                     error={errors.password}
                     type="password"
-                  />
+                  /> */}
                   <button
                     className="submitBtn"
                     type="submit"

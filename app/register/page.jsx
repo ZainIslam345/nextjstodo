@@ -1,7 +1,7 @@
 "use client";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
-import TextInput from "../components/TextInput/TextInput";
+// import TextInput from "../components/TextInput/TextInput";
 import styles from "./styles.module.css";
 import { toast, ToastContainer } from "react-toastify";
 import { register } from "../APIs/auth";
@@ -74,7 +74,7 @@ const RegisterPage = () => {
               return (
                 <Form className={styles.register}>
                   <h2>Register</h2>
-                  <TextInput
+                  {/* <TextInput
                     label="Name"
                     id="name"
                     name="name"
@@ -98,7 +98,7 @@ const RegisterPage = () => {
                     touched={touched}
                     error={errors.password}
                     type="password"
-                  />
+                  /> */}
                   <button
                     className="submitBtn"
                     type="submit"
