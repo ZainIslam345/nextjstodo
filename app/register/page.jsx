@@ -2,7 +2,7 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 // import {useRouter} from 'next/router';
-import TextInput from "@/app/components/TextInput/page";
+import TextInput from "../components/TextInput/page";
 import styles from "./styles.module.css";
 import { toast, ToastContainer } from "react-toastify";
 import { register } from "../APIs/auth";

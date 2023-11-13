@@ -1,7 +1,7 @@
 "use client";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
-import TextInput from "@/app/components/TextInput/page";
+import TextInput from "../components/TextInput/page";
 import styles from "./styles.module.css";
 import { login } from "../APIs/auth";
 import { toast, ToastContainer } from "react-toastify";
