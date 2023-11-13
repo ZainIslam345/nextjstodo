@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import styles from './styles.module.css';
+import styles from "./styles.module.css";
 import { Field, ErrorMessage } from "formik";
 
 const TextInput = forwardRef(
@@ -18,9 +18,13 @@ const TextInput = forwardRef(
     ref
   ) => {
     return (
-      <div className={`${classChange ? '' :    ` ${styles.textInput}` } ${containerClass} `}>
+      <div
+        className={`${
+          classChange ? "" : ` ${styles.textInput}`
+        } ${containerClass} `}
+      >
         {label && <label htmlFor={id}>{label}</label>}
-        <Field 
+        <Field
           name={name}
           ref={ref}
           type={type}
@@ -28,12 +32,12 @@ const TextInput = forwardRef(
           className={error && touched[id] ? `${styles.textInput_error}` : null}
           {...rest}
         />
-        <ErrorMessage name={name} component="span" className={styles.erro}/>
+        <ErrorMessage name={name} component="span" className={styles.erro} />
       </div>
     );
   }
 );
 
-TextInput.displayName = 'text Input';
+TextInput.displayName = "TextInput";
 
 export default TextInput;
